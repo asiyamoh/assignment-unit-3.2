@@ -41,7 +41,7 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
 for(eachStar of stars){
-  console.log('some starts:', eachStar);
+  console.log(`Some starts: ${eachStar}`);
 }
 
 // 3. While loops  
@@ -51,7 +51,7 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 let i = 0;
 while(i < stars.length){
-  console.log('Some stars:', stars[i]);
+  console.log(`Some stars: ${stars[i]}`);
   i++
 }
 
